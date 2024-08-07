@@ -15,5 +15,5 @@ const courseSchema=mongoose.Schema({
     category:String,
     imageurl:String
 })
-const CourseData=mongoose.model('elearnlab',courseSchema);
+const CourseData=mongoose.model('course',courseSchema);
 module.exports=CourseData;

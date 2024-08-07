@@ -72,7 +72,7 @@ const cors = require('cors');
 const userModel = require('./models/UserData');
 const courseModel = require('./models/CourseData');
 require('./connection');
-require('./connectionc');
+// require('./connectionc');
 const app = express();
 app.use(cors());
 app.use(express.json());
